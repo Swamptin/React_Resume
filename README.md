@@ -1,3 +1,11 @@
+# Resume website for me
+
+I have built this website based off the existing project by Christian Montero.
+Below, in full is their ReadMe take from their repo https://github.com/PolarisStar2000/My_Portfolio
+
+I am currently adapting this to become my own CV site.
+
+
 # Christian Montero Portfolio
 
 [🔗Live Demo🔗](https://christianmontero.vercel.app/)
