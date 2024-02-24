@@ -30,13 +30,13 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            Able Full-stack Developer with over 6 years of expertise in building Web & Mobile applications development.
+            An IT generalist with 5+ years experience and a love of software development and secure solutions.
             <br />
-            My goal is to deliver efficient and effective solutions, and I adhere to the following principles in my work:
+            My goal is to deliver efficient, effective, and secure solutions. I adhere to the following principles in my work:
             <br />
-            - I focus on providing solutions that address the client's needs and solve their problems.
+            - I focus on providing solutions that address the customer's needs and solve their problems.
             <br />
-            - I believe in keeping my clients engaged throughout the development process, ensuring them.
+            - I believe in keeping stakeholders engaged and informed throughout the development process, ensuring them.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

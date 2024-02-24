@@ -1,5 +1,5 @@
 import React from "react";
-import { BsLinkedin } from "react-icons/bs";
+import { BsLinkedin, BsMastodon } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 
 const HeaderSocials = () => {
@@ -18,6 +18,13 @@ const HeaderSocials = () => {
         rel="noreferrer"
       >
         <FaGithub />
+      </a>
+      <a
+        href="https://freeradical.zone/@swamptin"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <BsMastodon />
       </a>
     </div>
   );
