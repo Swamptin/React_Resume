@@ -2,7 +2,7 @@ import "./portfolio.css";
 
 import IMG1 from "../../assets/Rust.png";
 import IMG2 from "../../assets/Wedding.png";
-import IMG3 from "../../assets/Mobinspire.png";
+import IMG3 from "../../assets/Resume.png";
 import IMG4 from "../../assets/Raise.png";
 import IMG5 from "../../assets/Potsave.png";
 import IMG6 from "../../assets/Health.png";
@@ -31,12 +31,12 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: "Mob Inspire",
+      title: "Resume Site",
       img: IMG3,
       description:
-        "Mob Inspire streamlines the business operations in corporate sector by providing cost-effective and highly productive software solutions.",
-      technologies: "Nginx | PHP | MySQL | jQuery",
-      link: "https://www.mobinspire.com/",
+        "This resume website was built using ReactJS and deployed using the Netlify build infrastructure. The app is primarily ReactJS and HTML. The website is deployed on update to the repository. I took this project on to improve my ReactJS skills at a time when I was put on a React project in my current employer.",
+      technologies: "ReactJS | HTML | CSS",
+      link: "https://github.com/Swamptin/React_Resume",
     },
     {
       id: 4,
