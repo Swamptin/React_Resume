@@ -3,7 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/Rust.png";
 import IMG2 from "../../assets/Wedding.png";
 import IMG3 from "../../assets/Resume.png";
-import IMG4 from "../../assets/Raise.png";
+import IMG4 from "../../assets/ImageChecker.png";
 import IMG5 from "../../assets/Potsave.png";
 import IMG6 from "../../assets/Health.png";
 import React from "react";
@@ -35,41 +35,23 @@ const Portfolio = () => {
       img: IMG3,
       description:
         "This resume website was built using ReactJS and deployed using the Netlify build infrastructure. The app is primarily ReactJS and HTML. The website is deployed on update to the repository. I took this project on to improve my ReactJS skills at a time when I was put on a React project in my current employer.",
-      technologies: "ReactJS | HTML | CSS",
+      technologies: "React.js | HTML | CSS",
       link: "https://github.com/Swamptin/React_Resume",
     },
     {
       id: 4,
-      title: "Raise",
+      title: "Image Checker",
       img: IMG4,
       description:
-        "Get started with free educational courses to mastery the foundations of startup equity as an African business.",
-      technologies: "Remix | React.js | Webflow | jQuery",
-      link: "https://www.raise.africa/",
-    },
-    {
-      id: 5,
-      title: "Potsave",
-      img: IMG5,
-      description:
-        "Through the PotSave.com platform, PotSave offers in-person product assessment and ordering services, accessible via the website, mobile applications, and software.",
-      technologies: "React | Next.js | Lodash | Tailwind CSS",
-      link: "https://dev-pwa.potsave.com/",
-    },
-    {
-      id: 6,
-      title: "Health",
-      img: IMG6,
-      description:
-        "U of U Health is the Mountain West's only academic health care system. We provide patient care, medical research, and physician training.",
-      technologies: "Angular | Drupal | Nginx | TypeScript",
-      link: "https://healthcare.utah.edu/",
+        "A simple image checker written in Python. I wrote it as a way to confirm, without looking at two images if they were the same image.",
+      technologies: "Python",
+      link: "https://github.com/Swamptin/ImageChecker",
     },
   ];
 
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
+      <h5>A selection of my personal</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
