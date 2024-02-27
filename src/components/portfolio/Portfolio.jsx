@@ -1,7 +1,7 @@
 import "./portfolio.css";
 
-import IMG1 from "../../assets/Flexcavo.png";
-import IMG2 from "../../assets/Meetnative.png";
+import IMG1 from "../../assets/Rust.png";
+import IMG2 from "../../assets/Wedding.png";
 import IMG3 from "../../assets/Mobinspire.png";
 import IMG4 from "../../assets/Raise.png";
 import IMG5 from "../../assets/Potsave.png";
@@ -13,21 +13,21 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Flexcavo",
+      title: "Rust Todo",
       img: IMG1,
       description:
-        "It is the website for construction machine renting company (Flexcavo) from Berlin",
-      technologies: "React.js | Pixel-perfect | SCSS | Styled Component",
-      link: "https://www.flexcavo.de/",
+        "This is a commandline TODO app written in the Rust programming language. I wrote this to learn more about Rust as a programming language and to see if it was a good fit for future personal projects.",
+      technologies: "Rust",
+      link: "https://github.com/Swamptin/rust_todo_cli_tool",
     },
     {
       id: 2,
-      title: "Meet Native",
+      title: "Wedding Website",
       img: IMG2,
       description:
-        "MeetNative is an upselling platform that helps consumers and local businesses get more for their money.",
-      technologies: "React | React Native | Android | iOS",
-      link: "https://meetnative.com/",
+        "A website I created to share the details of my wedding and collect RSVP info. I wrote it in HTML, PHP, and Javascript as they allowed me to do everything I needed to do.",
+      technologies: "HTML | PHP | Javascript",
+      link: "http://swamptin.ie/wedding/",
     },
     {
       id: 3,
@@ -90,7 +90,7 @@ const Portfolio = () => {
                 className="btn btn-primary"
                 rel="noreferrer"
               >
-                Live Demo
+                Link
               </a>
             </div>
           </article>
