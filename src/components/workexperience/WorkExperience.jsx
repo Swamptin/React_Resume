@@ -30,7 +30,6 @@ const Workexperience = () => {
 
   return (
     <section id="workexperience">
-      <h5>My IT employment history</h5>
       <h2>Past Roles</h2>
 
       <div className="container workexperience__container">
