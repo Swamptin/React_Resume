@@ -6,10 +6,6 @@ import { MdOutlineEmail, MdLocationCity } from "react-icons/md";
 const Contact = () => {
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h5>
-        I look forward to hearing from you in the future.
-      </h5>
       <h2>Contact Me</h2>
 
       <div className="container contact__container">
