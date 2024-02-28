@@ -2,8 +2,8 @@ import "./workexperience.css";
 
 import React from "react";
 
-//Portfolio function
-const Portfolio = () => {
+//Workexperience function
+const Workexperience = () => {
   const soloProjects = [
     {
       id: 1,
@@ -29,14 +29,14 @@ const Portfolio = () => {
   ];
 
   return (
-    <section id="portfolio">
+    <section id="workexperience">
       <h5>My IT employment history</h5>
       <h2>Past Roles</h2>
 
-      <div className="container portfolio__container">
+      <div className="container workexperience__container">
         {soloProjects.map((pro) => (
-          <article className="portfolio__item" key={pro.id}>
-            <div className="portfolio__item-content">
+          <article className="workexperience__item" key={pro.id}>
+            <div className="workexperience__item-content">
               <h3>{pro.title}</h3>
               <h4>{pro.dates}</h4>
               <p>{pro.description}</p>
@@ -48,4 +48,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Workexperience;
