@@ -36,9 +36,6 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         {soloProjects.map((pro) => (
           <article className="portfolio__item" key={pro.id}>
-            <div className="portfolio__item-image">
-              <img src={pro.img} alt={pro.title} />
-            </div>
             <div className="portfolio__item-content">
               <h3>{pro.title}</h3>
               <h4>{pro.dates}</h4>
