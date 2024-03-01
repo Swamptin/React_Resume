@@ -17,7 +17,7 @@ const Workexperience = () => {
       title: "System Test Engineer | Blackbox",
       dates: "08/2018 - 10/2019",
       description:
-        "- Design, develop and execute test cases. \\\n - Develop tools to replicate Tier3 support issues. These tools were used to rapidly recreate issues that were reported. This improved resolution times for customer issues. \n - Update and maintain software used for flashing firmware and testing boards before shipping. Resolved existing issues with the process which reduced the number of boards failing and increased throughput. \n - Reduced VM deployment time from 3 days to less than day by automating the process.",
+        "- Design, develop and execute test cases. \n - Develop tools to replicate Tier3 support issues. These tools were used to rapidly recreate issues that were reported. This improved resolution times for customer issues. \n - Update and maintain software used for flashing firmware and testing boards before shipping. Resolved existing issues with the process which reduced the number of boards failing and increased throughput. \n - Reduced VM deployment time from 3 days to less than a day by automating the process.",
     },
     {
       id: 3,
@@ -27,6 +27,16 @@ const Workexperience = () => {
         "- Java and Bash development and maintenance. Projects mostly focussed on improving efficiencies in jobs in order to reduce cost and improve throughput. \n - In one project I reduced overall cost by migrating secondary functions onto a separate queue which freed up CPU cores to be used by other jobs. \n - Maintenance and patching of HPC environment (1000+ servers) using Chef and Puppet \n - Hadoop Operations - providing server management support through Ambari. Managing monthly patch cycles across the Hadoop clusters. \n - Maintain, enhance, and secure Operations tools. This work reduced engineering time spent on applying upgrades to the HPC environment",
     },
   ];
+
+  const addLineBreak = (str) =>
+  str.split('\n').map((subStr) => {
+    return (
+      <>
+        {subStr}
+        <br />
+      </>
+    );
+  });
 
   return (
     <section id="workexperience">
@@ -38,7 +48,7 @@ const Workexperience = () => {
             <div className="workexperience__item-content">
               <h3>{pro.title}</h3>
               <h4>{pro.dates}</h4>
-              <p>{pro.description}</p>
+              <p>{addLineBreak(pro.description)}</p>
             </div>
           </article>
         ))}
