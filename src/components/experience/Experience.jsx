@@ -59,7 +59,7 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>MySql | MSQL | PostgreSQL</h4>
+              <h4>MySql | MSSQL | PostgreSQL</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
