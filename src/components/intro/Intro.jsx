@@ -35,7 +35,7 @@ const Intro = () => {
             <br />
             - I focus on providing solutions that address the customer's needs and solve their problems.
             <br />
-            - I believe in keeping stakeholders engaged and informed throughout the development process, ensuring them.
+            - I believe in keeping stakeholders engaged and informed throughout the development process, ensuring they are active participants in the building of solutions.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
