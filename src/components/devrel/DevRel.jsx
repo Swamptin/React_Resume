@@ -11,7 +11,7 @@ const DevRel = () => {
       description:
         "Volunteer Radio Presenting/Producing: Flirt FM NUI Galway (2004-2006), RAG Radio UL (2008), OnFM London (2012), The Back of the Library Podcast (2011-2014). \n Broadcast Radio: RTE Lyric FM - Technical Operator ensuring broadcasts went to air on time. (2008)",
       technologies: "Adobe Audition | SAM Broadcaster | OBS ",
-      link: ""
+      link: "https://www.mixcloud.com/eoghanbrien/"
     },
     {
       id: 2,
